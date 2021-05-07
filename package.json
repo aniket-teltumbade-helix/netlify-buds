@@ -27,8 +27,7 @@
     "react-hook-form": "6.15.1",
     "react-query": "3.13.11",
     "stripe": "8.132.0",
-    "extract-css-chunks-webpack-plugin": "4.9.0",
-    "@zeit/next-css": "1.0.1"
+    "@netlify/plugin-nextjs": "3.2.2"
   },
   "scripts": {
     "dev": "next dev",
