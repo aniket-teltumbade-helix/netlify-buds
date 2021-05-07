@@ -28,7 +28,7 @@ export const getStaticPaths = () => ({
     { params: { type: "forgotpass" } },
     { params: { type: "changepass" } },
   ],
-  fallback: true,
+  fallback: false,
 });
 
 export function getStaticProps({ params }) {
